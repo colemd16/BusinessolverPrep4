@@ -1,12 +1,18 @@
+import java.util.List;
+
 public class Employee {
 
     public String name;
     public double salary;
-    public String role;
+    public Role role;
 
-    public Employee(String n, double s, String r) {
-        name = n;
-        salary = s;
-        role = r;
+    public Employee(String name, double salary, Role role) {
+        this.name = name;
+        this.salary = salary;
+        this.role = role;
     }
+
+
+
+
 }
